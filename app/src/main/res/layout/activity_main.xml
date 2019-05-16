@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="@color/colorPrimary">
+    <Button
+            android:text='"Battle tendency"'
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/battleTendency"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/muli_light" android:textColor="@color/colorPrimary" android:textSize="18dp"
+            android:textAllCaps="false" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/stardustCrusaders"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="246dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="404dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text='"Stone ocean"'
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stoneOcean" android:fontFamily="@font/muli_light"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="76dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary" android:textSize="18dp" android:textAllCaps="false"/>
+    <Button
+            android:text='"Vento Aureo"'
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ventoAureo" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/stoneOcean" app:layout_constraintHorizontal_bias="0.498"
+            style="@style/Widget.AppCompat.Button.Borderless" android:fontFamily="@font/muli_light"
+            android:background="@color/colorPrimaryDark" android:textColor="@color/colorPrimary"
+            android:textSize="18dp" android:textAllCaps="false"/>
+    <Button
+            android:text='"Diamond is unbreakable"'
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/diamondIsUnbreakable" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/ventoAureo" style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorPrimaryDark" android:fontFamily="@font/muli_light"
+            android:textColor="@color/colorPrimary" android:textSize="18dp" android:textAllCaps="false"/>
+    <Button
+            android:text='"Stardust crusaders"'
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stardustCrusaders"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/muli_light" android:textColor="@color/colorPrimary" android:textSize="18dp"
+            android:textAllCaps="false" app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/diamondIsUnbreakable"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/phantomBlood"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/muli_light" android:textSize="18sp" android:lineSpacingExtra="8sp"
+            android:textColor="@color/colorPrimary" android:textAllCaps="false"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/battleTendency" android:visibility="visible"
+            android:text='"Phantom blood"'/>
+</android.support.constraint.ConstraintLayout>
