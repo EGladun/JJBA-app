@@ -15,6 +15,12 @@ class StardustCrusadersActivity : AppCompatActivity() {
         val mediaPlayer = MediaPlayer.create(this, R.raw.season3)
         mediaPlayer.start()
 
+        jotaro.setOnClickListener {
+            val intent = Intent (this,HeroActivity::class.java)
+            intent.putExtra("name","jotaro")
+            startActivity(intent)
+        }
+
         backSC.setOnClickListener {
             val intent = Intent (this, MainActivity::class.java)
             mediaPlayer.pause()
