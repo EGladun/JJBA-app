@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
             <Button
-                    android:text="Джотаро"
+                    android:text="Джотаро Куджо"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/jotaro" app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,42 @@
                     style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
                     android:fontFamily="@font/muli_light" android:textSize="18sp"
                     android:textColor="@color/colorPrimary"/>
-
+            <Button
+                    android:text="Холли Куджо"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/holly" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/jotaro" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Мохаммед Абдул"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/abdul" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/holly" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Нориаки Какёин"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kakyoin" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/abdul" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
 
         </LinearLayout>
     </ScrollView>

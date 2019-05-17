@@ -4,6 +4,7 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_hero.*
 import kotlinx.android.synthetic.main.activity_stardust_crusaders.*
 
 class StardustCrusadersActivity : AppCompatActivity() {
@@ -20,6 +21,32 @@ class StardustCrusadersActivity : AppCompatActivity() {
             intent.putExtra("name","jotaro")
             startActivity(intent)
         }
+
+        holly.setOnClickListener{
+            val intent = Intent (this,HeroActivity::class.java)
+            intent.putExtra("name","holly")
+            startActivity(intent)
+        }
+
+        abdul.setOnClickListener {
+            val intent = Intent(this,HeroActivity::class.java)
+            intent.putExtra("name","abdul")
+            startActivity(intent)
+        }
+
+        kakyoin.setOnClickListener {
+            val intent = Intent(this,HeroActivity::class.java)
+            intent.putExtra("name","kakyoin")
+            startActivity(intent)
+        }
+
+
+
+
+
+
+
+
 
         backSC.setOnClickListener {
             val intent = Intent (this, MainActivity::class.java)
