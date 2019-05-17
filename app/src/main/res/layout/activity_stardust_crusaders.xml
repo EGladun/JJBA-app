@@ -69,6 +69,102 @@
                     style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
                     android:fontFamily="@font/muli_light" android:textSize="18sp"
                     android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Жан-Пьер Польнарефф"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/polnareff" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/kakyoin" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Игги"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/iggi" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/polnareff" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Хол Хорс"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/horse" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/iggi" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Джей Гейл"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/geil" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/horse" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Нена"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nena" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/geil" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Энья Гейл"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/enya" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/nena" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Пет Шоп"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/petshop" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/enya" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Ванилла Айс"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vanilla" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/petshop" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
 
         </LinearLayout>
     </ScrollView>

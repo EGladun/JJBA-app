@@ -40,12 +40,53 @@ class StardustCrusadersActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        polnareff.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","polnareff")
+            startActivity(intent)
+        }
 
+        iggi.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","iggi")
+            startActivity(intent)
+        }
 
+        horse.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","horse")
+            startActivity(intent)
+        }
 
+        geil.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","geil")
+            startActivity(intent)
+        }
 
+        nena.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","nena")
+            startActivity(intent)
+        }
 
+        enya.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","enya")
+            startActivity(intent)
+        }
 
+        petshop.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","petshop")
+            startActivity(intent)
+        }
+
+        vanilla.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","vanilla")
+            startActivity(intent)
+        }
 
 
         backSC.setOnClickListener {
