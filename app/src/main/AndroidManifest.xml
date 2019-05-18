@@ -8,17 +8,22 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".HeroActivity">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".HeroActivity"
+                  android:screenOrientation="portrait">
         </activity>
         <activity
                 android:name=".StardustCrusadersActivity"
                 android:label="@string/title_activity_stardust_crusaders"
-                android:theme="@style/AppTheme.NoActionBar">
+                android:theme="@style/AppTheme.NoActionBar"
+                android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".BattleTendencyActivity">
+        <activity android:name=".BattleTendencyActivity"
+                  android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".PhantomBloodActivity">
+        <activity android:name=".PhantomBloodActivity"
+                  android:screenOrientation="portrait">
         </activity>
         <activity
                 android:name=".MainActivity"
