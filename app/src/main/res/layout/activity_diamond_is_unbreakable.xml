@@ -48,6 +48,172 @@
                     style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
                     android:fontFamily="@font/muli_light" android:textSize="18sp"
                     android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Коичи Хиросе"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/koichi" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/josuke" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Окуясу Нидзимура"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/okuyasu" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/koichi" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Рохан Кисиба"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rohan" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/okuyasu" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Ёшикаге Кира"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kira" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/rohan" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Андзюро Катагири"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/andzuro" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/kira" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Юкако Ямагиси"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ukako" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/andzuro" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Томоко Хигашиката"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tomoko" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/ukako" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Акира Отоиши"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/otoishi" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/tomoko" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Тамами Кобаяши"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kobayashi" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/otoishi" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Тосикадзу Хадзамада"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hadzamada" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/kobayashi" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Сигэкиё Яндзо"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yandzo" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/hadzamada" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Рэми Сугимото"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/remi" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/yandzo" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Айа Цудзи"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aya" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/remi" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Михитака Хадзэкура"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hadzekura" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/aya" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+            <Button
+                    android:text="Сидзука Джостар"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sidzuka" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/hadzekura" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+
 
         </LinearLayout>
     </ScrollView>

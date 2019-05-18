@@ -15,6 +15,104 @@ class DiamondIsUnbreakableActivity : AppCompatActivity() {
         val mediaPlayer = MediaPlayer.create(this, R.raw.season4)
         mediaPlayer.start()
 
+        josuke.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","josuke")
+            startActivity(intent)
+        }
+
+        koichi.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","koichi")
+            startActivity(intent)
+        }
+
+        okuyasu.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","okuyasu")
+            startActivity(intent)
+        }
+
+        rohan.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","rohan")
+            startActivity(intent)
+        }
+        kira.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","kira")
+            startActivity(intent)
+        }
+
+        andzuro.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","andzuro")
+            startActivity(intent)
+        }
+
+        ukako.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","ukako")
+            startActivity(intent)
+        }
+
+        tomoko.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","tomoko")
+            startActivity(intent)
+        }
+
+        otoishi.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","otoishi")
+            startActivity(intent)
+        }
+
+        kobayashi.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","kobayashi")
+            startActivity(intent)
+        }
+
+        hadzamada.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","hadzamada")
+            startActivity(intent)
+        }
+
+        yandzo.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","yandzo")
+            startActivity(intent)
+        }
+
+        remi.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","remi")
+            startActivity(intent)
+        }
+
+        aya.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","aya")
+            startActivity(intent)
+        }
+
+        hadzekura.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","hadzekura")
+            startActivity(intent)
+        }
+
+        sidzuka.setOnClickListener {
+            val intent = Intent(this, HeroActivity::class.java)
+            intent.putExtra("name","sidzuka")
+            startActivity(intent)
+        }
+
+
+
+
         backDIU.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
             mediaPlayer.pause()
