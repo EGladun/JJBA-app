@@ -26,26 +26,17 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="404dp"
             app:layout_constraintBottom_toBottomOf="parent"/>
     <Button
-            android:text='"Stone ocean"'
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/stoneOcean" android:fontFamily="@font/muli_light"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="76dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
-            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
-            android:textColor="@color/colorPrimary" android:textSize="18dp" android:textAllCaps="false"/>
-    <Button
             android:text='"Vento Aureo"'
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/ventoAureo" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toTopOf="@+id/stoneOcean" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
             style="@style/Widget.AppCompat.Button.Borderless" android:fontFamily="@font/muli_light"
             android:background="@color/colorPrimaryDark" android:textColor="@color/colorPrimary"
-            android:textSize="18dp" android:textAllCaps="false"/>
+            android:textSize="18dp" android:textAllCaps="false" android:layout_marginBottom="88dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
     <Button
             android:text='"Diamond is unbreakable"'
             android:layout_width="0dp"
@@ -79,4 +70,5 @@
             app:layout_constraintHorizontal_bias="1.0" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toTopOf="@+id/battleTendency" android:visibility="visible"
             android:text='"Phantom blood"'/>
+
 </android.support.constraint.ConstraintLayout>

@@ -31,6 +31,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        ventoAureo.setOnClickListener {
+            val intent = Intent (this, VentoAureoActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     
 
