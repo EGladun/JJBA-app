@@ -26,6 +26,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+            <TextView
+                    android:id="@+id/seasonAboutTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:isScrollContainer="true"
+                    android:textStyle="italic"
+                    android:drawablePadding="10dp"
+                    android:linksClickable="true"
+                    android:fadingEdgeLength="25dp"
+                    android:fadingEdge="vertical"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:bufferType="spannable" android:layout_marginBottom="24dp"
+                    app:layout_constraintTop_toTopOf="@+id/dio" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:text="Empty"/>
             <Button
                     android:text="Дио"
                     android:layout_width="match_parent"
