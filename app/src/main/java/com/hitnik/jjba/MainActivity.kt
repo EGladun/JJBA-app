@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        diamondIsUnbreakable.setOnClickListener {
+            val intent = Intent (this,DiamondIsUnbreakableActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     
 

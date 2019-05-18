@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DiamondIsUnbreakableActivity" android:background="@color/colorPrimary">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="246dp" app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/scrollView3"/>
+
+    <Button
+            android:text="Назад"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backDIU" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+            android:textSize="18sp" android:fontFamily="@font/muli_light" android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:fillViewport="true"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toEndOf="parent"  android:layout_marginBottom="8dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/backDIU" android:id="@+id/scrollView3">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <Button
+                    android:text="Джоске Хигашиката"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/josuke" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/backPB" app:layout_constraintHorizontal_bias="0.0"
+                    style="@style/Widget.AppCompat.Button.Borderless" android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/muli_light" android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
