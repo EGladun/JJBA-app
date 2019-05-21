@@ -10,8 +10,11 @@
             android:screenOrientation="portrait"
             android:supportsRtl="true"
             android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".VentoAureoActivity"
-                  android:screenOrientation="portrait">
+        <activity android:name=".MemesActivity">
+        </activity>
+        <activity
+                android:name=".VentoAureoActivity"
+                android:screenOrientation="portrait">
         </activity>
         <activity
                 android:name=".DiamondIsUnbreakableActivity"

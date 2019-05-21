@@ -12,12 +12,12 @@ class BattleTendencyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_battle_tendency)
 
-        val mediaPlayer = MediaPlayer.create(this, R.raw.season2)
-        mediaPlayer.start()
+        val mediaPlayerTwo = MediaPlayer.create(this, R.raw.season2)
+        mediaPlayerTwo.start()
 
         backBT.setOnClickListener {
             val intent = Intent (this,MainActivity::class.java)
-            mediaPlayer.pause()
+            mediaPlayerTwo.pause()
             startActivity(intent)
         }
 

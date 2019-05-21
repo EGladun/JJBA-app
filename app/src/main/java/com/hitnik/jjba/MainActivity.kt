@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        memes.setOnClickListener {
+            val intent = Intent (this, MemesActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     
 

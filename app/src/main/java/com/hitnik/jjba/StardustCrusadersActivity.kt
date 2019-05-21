@@ -13,8 +13,8 @@ class StardustCrusadersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stardust_crusaders)
 
-        val mediaPlayer = MediaPlayer.create(this, R.raw.season3)
-        mediaPlayer.start()
+        val mediaPlayerThree = MediaPlayer.create(this, R.raw.season3)
+        mediaPlayerThree.start()
 
         jotaro.setOnClickListener {
             val intent = Intent (this,HeroActivity::class.java)
@@ -91,7 +91,7 @@ class StardustCrusadersActivity : AppCompatActivity() {
 
         backSC.setOnClickListener {
             val intent = Intent (this, MainActivity::class.java)
-            mediaPlayer.pause()
+            mediaPlayerThree.pause()
             startActivity(intent)
         }
 

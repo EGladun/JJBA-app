@@ -12,8 +12,8 @@ class DiamondIsUnbreakableActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_diamond_is_unbreakable)
 
-        val mediaPlayer = MediaPlayer.create(this, R.raw.season4)
-        mediaPlayer.start()
+        val mediaPlayerFour = MediaPlayer.create(this, R.raw.season4)
+        mediaPlayerFour.start()
 
         josuke.setOnClickListener {
             val intent = Intent(this, HeroActivity::class.java)
@@ -119,7 +119,7 @@ class DiamondIsUnbreakableActivity : AppCompatActivity() {
 
         backDIU.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
-            mediaPlayer.pause()
+            mediaPlayerFour.pause()
             startActivity(intent)
         }
     }

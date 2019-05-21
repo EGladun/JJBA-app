@@ -12,12 +12,12 @@ class VentoAureoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vento_aureo)
 
-        val mediaPlayer = MediaPlayer.create(this, R.raw.season5)
-        mediaPlayer.start()
+        val mediaPlayerFive = MediaPlayer.create(this, R.raw.season5)
+        mediaPlayerFive.start()
 
         backVA.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            mediaPlayer.pause()
+            mediaPlayerFive.pause()
             startActivity(intent)
         }
     }
